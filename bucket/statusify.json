@@ -2,7 +2,7 @@
     "version": "0.0.10",
     "description": "Custom rich presence for Discord",
     "homepage": "https://github.com/Orphoros/Statusify",
-    "license": 
+    "license":
     {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/Orphoros/Statusify/blob/main/LICENSE"
