@@ -18,17 +18,13 @@
         "Discord": "extras/discord"
     },
     "installer": {
-        "keep": false,
-        "file": "Statusify.windows-x86_64.exe",
-        "args": [
-            "/S",
-            "/D=$env:userprofile\\scoop\\apps\\statusify\\current"
+        "script": [
+            "Start-Process -Wait \"$dir\\Statusify.windows-x86_64.exe\" -ArgumentList @(\"/S /D=$dir\") -Verb RunAs"
         ]
     },
     "uninstaller": {
-        "file": "uninstall.exe",
-        "args": [
-            "/S"
+        "script": [
+            "Start-Process -Wait \"$dir\\uninstaller.exe\" -Verb RunAs"
         ]
     },
     "shortcuts": [
