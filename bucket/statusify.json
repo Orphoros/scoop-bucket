@@ -25,7 +25,7 @@
     },
     "uninstaller": {
         "script": [
-            "Start-Process -Wait \"$dir\\uninstall.exe\""
+            "Start-Process -Wait \"$dir\\uninstall.exe\" -ArgumentList @(\"/S\")"
         ]
     },
     "shortcuts": [
