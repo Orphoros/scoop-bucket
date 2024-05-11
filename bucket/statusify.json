@@ -19,12 +19,13 @@
     },
     "installer": {
         "script": [
-            "Start-Process -Wait \"$dir\\Statusify.windows-x86_64.exe\" -ArgumentList @(\"/S /D=$dir\") -Verb RunAs"
+            "Start-Process -Wait \"$dir\\Statusify.windows-x86_64.exe\" -ArgumentList @(\"/S /D=$dir\")",
+            "Remove-Item \"$dir\\Statusify.windows-x86_64.exe\""
         ]
     },
     "uninstaller": {
         "script": [
-            "Start-Process -Wait \"$dir\\uninstaller.exe\" -Verb RunAs"
+            "Start-Process -Wait \"$dir\\uninstall.exe\""
         ]
     },
     "shortcuts": [
