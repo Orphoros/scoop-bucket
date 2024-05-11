@@ -7,7 +7,7 @@
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/Orphoros/Statusify/blob/main/LICENSE"
     },
-    "notes": "Alpha release installation of Statusify",
+    "notes": "This installation is an alpha release of Statusify",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Orphoros/Statusify/releases/download/v0.0.10/Statusify.windows-x86_64.exe",
@@ -16,6 +16,13 @@
     },
     "suggest": {
         "Discord": "extras/discord"
+    },
+    "installer": {
+        "keep": false,
+        "file": "Statusify.windows-x86_64.exe",
+        "args": [
+            "/S"
+        ]
     },
     "shortcuts": [
         [
