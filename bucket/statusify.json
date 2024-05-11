@@ -21,6 +21,13 @@
         "keep": false,
         "file": "Statusify.windows-x86_64.exe",
         "args": [
+            "/S",
+            "/D=$env:userprofile\\scoop\\apps\\statusify\\current"
+        ]
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": [
             "/S"
         ]
     },
@@ -30,7 +37,6 @@
             "Statusify"
         ]
     ],
-    "persist": "User",
     "checkver": {
         "github": "https://github.com/Orphoros/Statusify"
     },
