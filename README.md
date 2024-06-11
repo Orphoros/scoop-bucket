@@ -20,6 +20,7 @@ scoop install <manifest-name>
 | Manifest Name | Description |
 | --- | --- |
 | [statusify](./bucket/statusify.json) | Custom rich presence for Discord |
+| [appicongen](./bucket/appicongen.json) | Generate app icons |
 
 ---
 
