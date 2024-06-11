@@ -8,7 +8,6 @@
         "url": "https://github.com/Orphoros/AppIconGen/blob/main/LICENSE"
     },
     "notes": "This installation is an alpha release",
-    "extract_dir": "appicongen",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Orphoros/AppIconGen/releases/download/v0.0.1/appicongen.x86_64-pc-windows-msvc.zip",
