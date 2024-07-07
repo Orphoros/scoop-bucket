@@ -4,3 +4,4 @@
 page.html
 checkver-*.html
 .DS_Store
+*.sh
