@@ -1,5 +1,5 @@
 {
-    "version": "0.0.12",
+    "version": "0.0.13",
     "description": "Custom rich presence for Discord",
     "homepage": "https://github.com/Orphoros/Statusify",
     "license":
@@ -10,8 +10,8 @@
     "notes": "This installation is an alpha release of Statusify",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Orphoros/Statusify/releases/download/v0.0.12/Statusify.windows-x86_64.exe",
-            "hash": "6b3c63946be56dba08a56c5f4fc530d5827a42d900a1182ab6f3d0474bca2e1d"
+            "url": "https://github.com/Orphoros/Statusify/releases/download/v0.0.13/Statusify.windows-x86_64.exe",
+            "hash": "c8d3b409ebde225fece41a6d6d71ab50950d1069ddb8535403c89a3617454c7f"
         }
     },
     "suggest": {
